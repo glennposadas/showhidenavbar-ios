@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C60DA74FABC803C42AD7234E7B85D9 /* Sequence+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D108AABDA83F37FED5094DA0B2084424 /* Sequence+GPKit.swift */; };
+		01A5A55981A634B0A3B14EE35776E1DB /* UIView+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D454248773714D3647C6DD6A706541D2 /* UIView+GPKit.swift */; };
+		01D1840758FCA9020D34E83B5A4CF218 /* GPTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15AA0DEAB0A713DC50CC19EA80D91575 /* GPTitleView.xib */; };
+		0859DFA3B30F66EDDA721E93F3D9A367 /* TimeInterval+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B870DC627759AC2867301C92140CFA9B /* TimeInterval+GPKit.swift */; };
+		0BB5F33D9671E90851970E33430EC5F9 /* GPNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDD48118FC3E9332E5623EFAD5E8DC /* GPNotification.swift */; };
+		14E293C9FA8AD9D4442C4C23EF7008DE /* Pods-HidingShowingNavBarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C15C6290871FFAC923BF1C2DFD0383FD /* Pods-HidingShowingNavBarUITests-dummy.m */; };
+		1DCE6DC4EB2497CCFF5592373EECAA4A /* UIDevice+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137DFF164D9D5ACBDFF115C62786C52 /* UIDevice+GPKit.swift */; };
+		24E01AF8743B51708298376C92761253 /* UIViewContorller+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC246166DC55F452CD730BCD820CB39 /* UIViewContorller+GPKit.swift */; };
+		273AB1F55A4CB0C3D06169AD657C51F9 /* Error+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694E5B8F23183F7AD2E9B1E932529ED2 /* Error+GPKit.swift */; };
+		2FE0101243C590C2DA6CDE1115CAA539 /* UITextField+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3740F2820266B666F4BD493AB1F10298 /* UITextField+GPKit.swift */; };
+		3BC580122C6007CA1DA7354F88B6BA67 /* UINavigationController+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631C7AEE7399FF450BBAE19783F6C981 /* UINavigationController+GPKit.swift */; };
+		3CA0688DB810A7B798499FB4398C681D /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753B97630D2A13297A5148370591195 /* MIBadgeButton.swift */; };
+		4AECA6592C4849FDD71AF411C26ECF73 /* GPKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB724A3E0DA898BCE34F1BEAC171A1FA /* GPKit-dummy.m */; };
+		4BE85245AD0C15055BC7519856985C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5B85C2F23CACAB9B70FF2D841612EA56 /* GPCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E103AB539D4A10582EE3AB84F3AC7B3 /* GPCountry.swift */; };
+		667F7D302BD079FD2F4AD0DE36C24BAC /* Array+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B384083FCB5444FA2DA9A51FD3E79C8 /* Array+GPKit.swift */; };
+		6D74437B65A17CFB80939C1B5A39F6DD /* Notification+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDBAAA7FD3340454D186395CBFD04C3 /* Notification+GPKit.swift */; };
+		74A6C3095E524DEDC2F6C1A6515C37C7 /* GPTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C33617C6F6DEDE05E12CE04B7677A90 /* GPTitleView.swift */; };
+		792090C122206799EEADD7D4B9D8AC28 /* GPLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A58ACEEAC8B947FF0CBDC79B71E8E /* GPLog.swift */; };
+		7A0071C705460A3803A52A6CA499C927 /* URL+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F61F91130914EDD47BA7263347A2A5 /* URL+GPKit.swift */; };
+		7A16ED3DEFB351DE5483CCE13B252DD9 /* Pods-HidingShowingNavBarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E8B653F36BDD65D76BC57240D3EDF7 /* Pods-HidingShowingNavBarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2F5D759697F9357380148EF9CB6518 /* Pods-HidingShowingNavBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3F25E671CC91ED8EF2D256DA1B6B98 /* Pods-HidingShowingNavBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80809237797A8EF29B7464D547BEB8EC /* GPKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5D242F6F0679E39C85CA9B46B4EA12 /* GPKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81D587DC178F18A5A2683400CE17734C /* Double+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E389B1360B38CBAC3F28A768C831F4 /* Double+GPKit.swift */; };
+		921113CD1E4B4CF48A09E5453DD0D0C3 /* UIImage+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83DD93361608C18DF883A055A0C156 /* UIImage+GPKit.swift */; };
+		9AFEE8DAA17CE6CBA38B8C57CF2DA137 /* UIColor+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167664D1540F2DAAF083F7BBD912FC1A /* UIColor+GPKit.swift */; };
+		A2BABFDB6ED7BE29424DB7060E777F02 /* Bundle+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D76F1B839A504B4C83212EEC6172F4 /* Bundle+GPKit.swift */; };
+		A4342C4D8991FEC68B9D502E40CBEAB9 /* DispatchQueue+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4C6DF62B079847F5518EB602ACF066 /* DispatchQueue+GPKit.swift */; };
+		A54753CC59C6B0EB1E8D64B1DE1BA727 /* Date+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1AD25D2EC45E4669890779D0DACA5 /* Date+GPKit.swift */; };
+		B71CFF7401A697D55D8823C4A3A9BFA0 /* Pods-HidingShowingNavBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DD451275580FCC2EB4B45DDD4CC0B4 /* Pods-HidingShowingNavBar-dummy.m */; };
+		CAEDAD1ABCC63AE23A15E8402C54C975 /* String+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41EDEFDA334FCCE56C9BB674180AB5A /* String+GPKit.swift */; };
+		D2639E4036ACF3D2218FB935C7EF1E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EC60E483723EEC855E20351A9DA7D118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F36361B0B3B712BA6430E0DE605E3B96 /* UIButton+GPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AC1F62E91E75210C2DED97079C6DE /* UIButton+GPKit.swift */; };
+		FB5453D85F752686BFB7931BCD485B23 /* GPJSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76A9543AD5BEEC45C9B8F72B7F15B2 /* GPJSONReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BF7A83EAAC2781B5EEE836A4745FB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065017037A7817454F0BFEB478BF39E3;
+			remoteInfo = GPKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03294A8234C94ACB7B109E09C232C034 /* Pods_HidingShowingNavBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HidingShowingNavBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C33617C6F6DEDE05E12CE04B7677A90 /* GPTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPTitleView.swift; path = GPKit/Views/GPTitleView.swift; sourceTree = "<group>"; };
+		0FA5C355AC3272070CF24169535688BA /* GPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AA0DEAB0A713DC50CC19EA80D91575 /* GPTitleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GPTitleView.xib; path = GPKit/Views/GPTitleView.xib; sourceTree = "<group>"; };
+		167664D1540F2DAAF083F7BBD912FC1A /* UIColor+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+GPKit.swift"; path = "GPKit/Categories/UIColor+GPKit.swift"; sourceTree = "<group>"; };
+		19DF960646F1EE5E226282AC816CA6BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F61F91130914EDD47BA7263347A2A5 /* URL+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+GPKit.swift"; path = "GPKit/Categories/URL+GPKit.swift"; sourceTree = "<group>"; };
+		3740F2820266B666F4BD493AB1F10298 /* UITextField+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+GPKit.swift"; path = "GPKit/Categories/UITextField+GPKit.swift"; sourceTree = "<group>"; };
+		3A32095D65D244FBDF1E4614FED3A093 /* Pods-HidingShowingNavBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HidingShowingNavBar.release.xcconfig"; sourceTree = "<group>"; };
+		3B384083FCB5444FA2DA9A51FD3E79C8 /* Array+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+GPKit.swift"; path = "GPKit/Categories/Array+GPKit.swift"; sourceTree = "<group>"; };
+		3D7185C02BDC7302A49B517C3682F466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED010939E993F49D78BEC4F950C8864 /* GPKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPKit.xcconfig; sourceTree = "<group>"; };
+		4137DFF164D9D5ACBDFF115C62786C52 /* UIDevice+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+GPKit.swift"; path = "GPKit/Categories/UIDevice+GPKit.swift"; sourceTree = "<group>"; };
+		450032BD17C7228E28039D006C297B72 /* Pods-HidingShowingNavBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HidingShowingNavBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46332331896811E9E97BA7D048C5677F /* GPKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GPKit.modulemap; sourceTree = "<group>"; };
+		4D94056EB958DA4E08C30E6ECADABDAF /* Pods-HidingShowingNavBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HidingShowingNavBar.debug.xcconfig"; sourceTree = "<group>"; };
+		522B7F21519EE94EC136BF419C06C8D4 /* Pods_HidingShowingNavBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HidingShowingNavBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D76F1B839A504B4C83212EEC6172F4 /* Bundle+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+GPKit.swift"; path = "GPKit/Categories/Bundle+GPKit.swift"; sourceTree = "<group>"; };
+		57DD451275580FCC2EB4B45DDD4CC0B4 /* Pods-HidingShowingNavBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HidingShowingNavBar-dummy.m"; sourceTree = "<group>"; };
+		5819C7A930822D9C470313594D10731C /* Pods-HidingShowingNavBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HidingShowingNavBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BDDD48118FC3E9332E5623EFAD5E8DC /* GPNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPNotification.swift; path = GPKit/GPNotification.swift; sourceTree = "<group>"; };
+		5C3F25E671CC91ED8EF2D256DA1B6B98 /* Pods-HidingShowingNavBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HidingShowingNavBar-umbrella.h"; sourceTree = "<group>"; };
+		631C7AEE7399FF450BBAE19783F6C981 /* UINavigationController+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+GPKit.swift"; path = "GPKit/Categories/UINavigationController+GPKit.swift"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6753B97630D2A13297A5148370591195 /* MIBadgeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIBadgeButton.swift; path = GPKit/Views/MIBadgeButton.swift; sourceTree = "<group>"; };
+		694E5B8F23183F7AD2E9B1E932529ED2 /* Error+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Error+GPKit.swift"; path = "GPKit/Categories/Error+GPKit.swift"; sourceTree = "<group>"; };
+		6B5D242F6F0679E39C85CA9B46B4EA12 /* GPKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPKit-umbrella.h"; sourceTree = "<group>"; };
+		6E103AB539D4A10582EE3AB84F3AC7B3 /* GPCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPCountry.swift; path = GPKit/GPCountry.swift; sourceTree = "<group>"; };
+		73313C4903AF18CA6593A3E5055E1A5A /* Pods-HidingShowingNavBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HidingShowingNavBar.modulemap"; sourceTree = "<group>"; };
+		78316DE7091688D7AA97E82BABCAF731 /* Pods-HidingShowingNavBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HidingShowingNavBar-frameworks.sh"; sourceTree = "<group>"; };
+		7CE1EE16D1B96FBFF4DDC078A4CEAC08 /* Pods-HidingShowingNavBarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HidingShowingNavBarUITests.modulemap"; sourceTree = "<group>"; };
+		7DC246166DC55F452CD730BCD820CB39 /* UIViewContorller+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewContorller+GPKit.swift"; path = "GPKit/Categories/UIViewContorller+GPKit.swift"; sourceTree = "<group>"; };
+		8DDBAAA7FD3340454D186395CBFD04C3 /* Notification+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notification+GPKit.swift"; path = "GPKit/Categories/Notification+GPKit.swift"; sourceTree = "<group>"; };
+		930A58ACEEAC8B947FF0CBDC79B71E8E /* GPLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPLog.swift; path = GPKit/GPLog.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E8B653F36BDD65D76BC57240D3EDF7 /* Pods-HidingShowingNavBarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HidingShowingNavBarUITests-umbrella.h"; sourceTree = "<group>"; };
+		A5D9C2CC2AD6343E072DF54788534FEA /* Pods-HidingShowingNavBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HidingShowingNavBarUITests-resources.sh"; sourceTree = "<group>"; };
+		A6E389B1360B38CBAC3F28A768C831F4 /* Double+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+GPKit.swift"; path = "GPKit/Categories/Double+GPKit.swift"; sourceTree = "<group>"; };
+		A96AC1F62E91E75210C2DED97079C6DE /* UIButton+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+GPKit.swift"; path = "GPKit/Categories/UIButton+GPKit.swift"; sourceTree = "<group>"; };
+		AB724A3E0DA898BCE34F1BEAC171A1FA /* GPKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPKit-dummy.m"; sourceTree = "<group>"; };
+		B13B8C3B3604903063A4A61E51E2A518 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B427317CA3EEA425A11BC4BA74EF081D /* Pods-HidingShowingNavBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HidingShowingNavBar-resources.sh"; sourceTree = "<group>"; };
+		B870DC627759AC2867301C92140CFA9B /* TimeInterval+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+GPKit.swift"; path = "GPKit/Categories/TimeInterval+GPKit.swift"; sourceTree = "<group>"; };
+		BC83DD93361608C18DF883A055A0C156 /* UIImage+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+GPKit.swift"; path = "GPKit/Categories/UIImage+GPKit.swift"; sourceTree = "<group>"; };
+		BFA9AAFF6CAB246E2FC5FBE269BAC563 /* Pods-HidingShowingNavBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HidingShowingNavBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C15C6290871FFAC923BF1C2DFD0383FD /* Pods-HidingShowingNavBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HidingShowingNavBarUITests-dummy.m"; sourceTree = "<group>"; };
+		C41EDEFDA334FCCE56C9BB674180AB5A /* String+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+GPKit.swift"; path = "GPKit/Categories/String+GPKit.swift"; sourceTree = "<group>"; };
+		C70E6DA20D6C67307DFAEDE29215C0C0 /* GPKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPKit-prefix.pch"; sourceTree = "<group>"; };
+		D108AABDA83F37FED5094DA0B2084424 /* Sequence+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Sequence+GPKit.swift"; path = "GPKit/Categories/Sequence+GPKit.swift"; sourceTree = "<group>"; };
+		D454248773714D3647C6DD6A706541D2 /* UIView+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+GPKit.swift"; path = "GPKit/Categories/UIView+GPKit.swift"; sourceTree = "<group>"; };
+		D9C1AD25D2EC45E4669890779D0DACA5 /* Date+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+GPKit.swift"; path = "GPKit/Categories/Date+GPKit.swift"; sourceTree = "<group>"; };
+		DB2C695D7E410133FA794833B755DB69 /* Pods-HidingShowingNavBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HidingShowingNavBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF2601A4265190518E76D8C82CC578E4 /* Pods-HidingShowingNavBarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HidingShowingNavBarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E287D544F28D37067F9FBFB54EAF7ACC /* Pods-HidingShowingNavBarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HidingShowingNavBarUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EB4BDFE1FAE7C3E891910CF962D0FAEE /* Pods-HidingShowingNavBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HidingShowingNavBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC4C6DF62B079847F5518EB602ACF066 /* DispatchQueue+GPKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+GPKit.swift"; path = "GPKit/Categories/DispatchQueue+GPKit.swift"; sourceTree = "<group>"; };
+		FE76A9543AD5BEEC45C9B8F72B7F15B2 /* GPJSONReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPJSONReader.swift; path = GPKit/GPJSONReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB10A8D5F68952B608521EAF28F2CBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE85245AD0C15055BC7519856985C82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9736A530BD6774DA3F2F01C9C13DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC60E483723EEC855E20351A9DA7D118 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12FD7BC0475D279FCD2A60ED70A2C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2639E4036ACF3D2218FB935C7EF1E4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE5512FDD30517F88B4C71DCBC3AAE1 /* Pods-HidingShowingNavBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B13B8C3B3604903063A4A61E51E2A518 /* Info.plist */,
+				7CE1EE16D1B96FBFF4DDC078A4CEAC08 /* Pods-HidingShowingNavBarUITests.modulemap */,
+				450032BD17C7228E28039D006C297B72 /* Pods-HidingShowingNavBarUITests-acknowledgements.markdown */,
+				DF2601A4265190518E76D8C82CC578E4 /* Pods-HidingShowingNavBarUITests-acknowledgements.plist */,
+				C15C6290871FFAC923BF1C2DFD0383FD /* Pods-HidingShowingNavBarUITests-dummy.m */,
+				E287D544F28D37067F9FBFB54EAF7ACC /* Pods-HidingShowingNavBarUITests-frameworks.sh */,
+				A5D9C2CC2AD6343E072DF54788534FEA /* Pods-HidingShowingNavBarUITests-resources.sh */,
+				A4E8B653F36BDD65D76BC57240D3EDF7 /* Pods-HidingShowingNavBarUITests-umbrella.h */,
+				5819C7A930822D9C470313594D10731C /* Pods-HidingShowingNavBarUITests.debug.xcconfig */,
+				DB2C695D7E410133FA794833B755DB69 /* Pods-HidingShowingNavBarUITests.release.xcconfig */,
+			);
+			name = "Pods-HidingShowingNavBarUITests";
+			path = "Target Support Files/Pods-HidingShowingNavBarUITests";
+			sourceTree = "<group>";
+		};
+		0F0ACAEBA8A90DD6680988F41027717D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B885A61340090C25043253BE2A46340 /* Pods-HidingShowingNavBar */,
+				0AE5512FDD30517F88B4C71DCBC3AAE1 /* Pods-HidingShowingNavBarUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1B885A61340090C25043253BE2A46340 /* Pods-HidingShowingNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				19DF960646F1EE5E226282AC816CA6BB /* Info.plist */,
+				73313C4903AF18CA6593A3E5055E1A5A /* Pods-HidingShowingNavBar.modulemap */,
+				BFA9AAFF6CAB246E2FC5FBE269BAC563 /* Pods-HidingShowingNavBar-acknowledgements.markdown */,
+				EB4BDFE1FAE7C3E891910CF962D0FAEE /* Pods-HidingShowingNavBar-acknowledgements.plist */,
+				57DD451275580FCC2EB4B45DDD4CC0B4 /* Pods-HidingShowingNavBar-dummy.m */,
+				78316DE7091688D7AA97E82BABCAF731 /* Pods-HidingShowingNavBar-frameworks.sh */,
+				B427317CA3EEA425A11BC4BA74EF081D /* Pods-HidingShowingNavBar-resources.sh */,
+				5C3F25E671CC91ED8EF2D256DA1B6B98 /* Pods-HidingShowingNavBar-umbrella.h */,
+				4D94056EB958DA4E08C30E6ECADABDAF /* Pods-HidingShowingNavBar.debug.xcconfig */,
+				3A32095D65D244FBDF1E4614FED3A093 /* Pods-HidingShowingNavBar.release.xcconfig */,
+			);
+			name = "Pods-HidingShowingNavBar";
+			path = "Target Support Files/Pods-HidingShowingNavBar";
+			sourceTree = "<group>";
+		};
+		3DF49E2B371ECC775D562533CF6B4387 /* GPKit */ = {
+			isa = PBXGroup;
+			children = (
+				3B384083FCB5444FA2DA9A51FD3E79C8 /* Array+GPKit.swift */,
+				53D76F1B839A504B4C83212EEC6172F4 /* Bundle+GPKit.swift */,
+				D9C1AD25D2EC45E4669890779D0DACA5 /* Date+GPKit.swift */,
+				FC4C6DF62B079847F5518EB602ACF066 /* DispatchQueue+GPKit.swift */,
+				A6E389B1360B38CBAC3F28A768C831F4 /* Double+GPKit.swift */,
+				694E5B8F23183F7AD2E9B1E932529ED2 /* Error+GPKit.swift */,
+				6E103AB539D4A10582EE3AB84F3AC7B3 /* GPCountry.swift */,
+				FE76A9543AD5BEEC45C9B8F72B7F15B2 /* GPJSONReader.swift */,
+				930A58ACEEAC8B947FF0CBDC79B71E8E /* GPLog.swift */,
+				5BDDD48118FC3E9332E5623EFAD5E8DC /* GPNotification.swift */,
+				0C33617C6F6DEDE05E12CE04B7677A90 /* GPTitleView.swift */,
+				6753B97630D2A13297A5148370591195 /* MIBadgeButton.swift */,
+				8DDBAAA7FD3340454D186395CBFD04C3 /* Notification+GPKit.swift */,
+				D108AABDA83F37FED5094DA0B2084424 /* Sequence+GPKit.swift */,
+				C41EDEFDA334FCCE56C9BB674180AB5A /* String+GPKit.swift */,
+				B870DC627759AC2867301C92140CFA9B /* TimeInterval+GPKit.swift */,
+				A96AC1F62E91E75210C2DED97079C6DE /* UIButton+GPKit.swift */,
+				167664D1540F2DAAF083F7BBD912FC1A /* UIColor+GPKit.swift */,
+				4137DFF164D9D5ACBDFF115C62786C52 /* UIDevice+GPKit.swift */,
+				BC83DD93361608C18DF883A055A0C156 /* UIImage+GPKit.swift */,
+				631C7AEE7399FF450BBAE19783F6C981 /* UINavigationController+GPKit.swift */,
+				3740F2820266B666F4BD493AB1F10298 /* UITextField+GPKit.swift */,
+				D454248773714D3647C6DD6A706541D2 /* UIView+GPKit.swift */,
+				7DC246166DC55F452CD730BCD820CB39 /* UIViewContorller+GPKit.swift */,
+				25F61F91130914EDD47BA7263347A2A5 /* URL+GPKit.swift */,
+				6C6531E80E19447C1870DCB6A0BD4594 /* Resources */,
+				B1928EEC728B5F9B5D534B6D017CA97E /* Support Files */,
+			);
+			path = GPKit;
+			sourceTree = "<group>";
+		};
+		45B43B899DBF5247CC6ACE5208AEBA7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DF49E2B371ECC775D562533CF6B4387 /* GPKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		645D713141123C4E3D180C159E0F162C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA5C355AC3272070CF24169535688BA /* GPKit.framework */,
+				03294A8234C94ACB7B109E09C232C034 /* Pods_HidingShowingNavBar.framework */,
+				522B7F21519EE94EC136BF419C06C8D4 /* Pods_HidingShowingNavBarUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6531E80E19447C1870DCB6A0BD4594 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15AA0DEAB0A713DC50CC19EA80D91575 /* GPTitleView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				45B43B899DBF5247CC6ACE5208AEBA7B /* Pods */,
+				645D713141123C4E3D180C159E0F162C /* Products */,
+				0F0ACAEBA8A90DD6680988F41027717D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B1928EEC728B5F9B5D534B6D017CA97E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46332331896811E9E97BA7D048C5677F /* GPKit.modulemap */,
+				3ED010939E993F49D78BEC4F950C8864 /* GPKit.xcconfig */,
+				AB724A3E0DA898BCE34F1BEAC171A1FA /* GPKit-dummy.m */,
+				C70E6DA20D6C67307DFAEDE29215C0C0 /* GPKit-prefix.pch */,
+				6B5D242F6F0679E39C85CA9B46B4EA12 /* GPKit-umbrella.h */,
+				3D7185C02BDC7302A49B517C3682F466 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GPKit";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		135487C03F134C11CBDF8D118E60E84F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2F5D759697F9357380148EF9CB6518 /* Pods-HidingShowingNavBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9E3AA29F460F8D2A3CF4769E6A571F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A16ED3DEFB351DE5483CCE13B252DD9 /* Pods-HidingShowingNavBarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800AA2C52EAB52E1115402E598AD767A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80809237797A8EF29B7464D547BEB8EC /* GPKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		065017037A7817454F0BFEB478BF39E3 /* GPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3680E23569BB94FA372368CF06DA5769 /* Build configuration list for PBXNativeTarget "GPKit" */;
+			buildPhases = (
+				6727BB09CEC7900C167D48F3A799EE27 /* Sources */,
+				E12FD7BC0475D279FCD2A60ED70A2C34 /* Frameworks */,
+				F1437D275FB1D63E8A71CB9C851CB743 /* Resources */,
+				800AA2C52EAB52E1115402E598AD767A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPKit;
+			productName = GPKit;
+			productReference = 0FA5C355AC3272070CF24169535688BA /* GPKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4863CBB45840FE0BDD7AA715D47CBD3F /* Pods-HidingShowingNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4591CF88AB6F1F5D108E76361DB9A763 /* Build configuration list for PBXNativeTarget "Pods-HidingShowingNavBar" */;
+			buildPhases = (
+				D095117ED70BAB8AD68CE3369FB9107B /* Sources */,
+				CF9736A530BD6774DA3F2F01C9C13DBC /* Frameworks */,
+				135487C03F134C11CBDF8D118E60E84F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C798F4F355BC3816F24D84DFFCEDC1CC /* PBXTargetDependency */,
+			);
+			name = "Pods-HidingShowingNavBar";
+			productName = "Pods-HidingShowingNavBar";
+			productReference = 03294A8234C94ACB7B109E09C232C034 /* Pods_HidingShowingNavBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C366C61381B2AAF56246D4E8934F2075 /* Pods-HidingShowingNavBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D012046DA8FA4D6B9C0A478E2534554F /* Build configuration list for PBXNativeTarget "Pods-HidingShowingNavBarUITests" */;
+			buildPhases = (
+				3A05C27DA88576F01DFC6639A0155D8B /* Sources */,
+				AB10A8D5F68952B608521EAF28F2CBF3 /* Frameworks */,
+				4B9E3AA29F460F8D2A3CF4769E6A571F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HidingShowingNavBarUITests";
+			productName = "Pods-HidingShowingNavBarUITests";
+			productReference = 522B7F21519EE94EC136BF419C06C8D4 /* Pods_HidingShowingNavBarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 645D713141123C4E3D180C159E0F162C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065017037A7817454F0BFEB478BF39E3 /* GPKit */,
+				4863CBB45840FE0BDD7AA715D47CBD3F /* Pods-HidingShowingNavBar */,
+				C366C61381B2AAF56246D4E8934F2075 /* Pods-HidingShowingNavBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1437D275FB1D63E8A71CB9C851CB743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D1840758FCA9020D34E83B5A4CF218 /* GPTitleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A05C27DA88576F01DFC6639A0155D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E293C9FA8AD9D4442C4C23EF7008DE /* Pods-HidingShowingNavBarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6727BB09CEC7900C167D48F3A799EE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667F7D302BD079FD2F4AD0DE36C24BAC /* Array+GPKit.swift in Sources */,
+				A2BABFDB6ED7BE29424DB7060E777F02 /* Bundle+GPKit.swift in Sources */,
+				A54753CC59C6B0EB1E8D64B1DE1BA727 /* Date+GPKit.swift in Sources */,
+				A4342C4D8991FEC68B9D502E40CBEAB9 /* DispatchQueue+GPKit.swift in Sources */,
+				81D587DC178F18A5A2683400CE17734C /* Double+GPKit.swift in Sources */,
+				273AB1F55A4CB0C3D06169AD657C51F9 /* Error+GPKit.swift in Sources */,
+				5B85C2F23CACAB9B70FF2D841612EA56 /* GPCountry.swift in Sources */,
+				FB5453D85F752686BFB7931BCD485B23 /* GPJSONReader.swift in Sources */,
+				4AECA6592C4849FDD71AF411C26ECF73 /* GPKit-dummy.m in Sources */,
+				792090C122206799EEADD7D4B9D8AC28 /* GPLog.swift in Sources */,
+				0BB5F33D9671E90851970E33430EC5F9 /* GPNotification.swift in Sources */,
+				74A6C3095E524DEDC2F6C1A6515C37C7 /* GPTitleView.swift in Sources */,
+				3CA0688DB810A7B798499FB4398C681D /* MIBadgeButton.swift in Sources */,
+				6D74437B65A17CFB80939C1B5A39F6DD /* Notification+GPKit.swift in Sources */,
+				00C60DA74FABC803C42AD7234E7B85D9 /* Sequence+GPKit.swift in Sources */,
+				CAEDAD1ABCC63AE23A15E8402C54C975 /* String+GPKit.swift in Sources */,
+				0859DFA3B30F66EDDA721E93F3D9A367 /* TimeInterval+GPKit.swift in Sources */,
+				F36361B0B3B712BA6430E0DE605E3B96 /* UIButton+GPKit.swift in Sources */,
+				9AFEE8DAA17CE6CBA38B8C57CF2DA137 /* UIColor+GPKit.swift in Sources */,
+				1DCE6DC4EB2497CCFF5592373EECAA4A /* UIDevice+GPKit.swift in Sources */,
+				921113CD1E4B4CF48A09E5453DD0D0C3 /* UIImage+GPKit.swift in Sources */,
+				3BC580122C6007CA1DA7354F88B6BA67 /* UINavigationController+GPKit.swift in Sources */,
+				2FE0101243C590C2DA6CDE1115CAA539 /* UITextField+GPKit.swift in Sources */,
+				01A5A55981A634B0A3B14EE35776E1DB /* UIView+GPKit.swift in Sources */,
+				24E01AF8743B51708298376C92761253 /* UIViewContorller+GPKit.swift in Sources */,
+				7A0071C705460A3803A52A6CA499C927 /* URL+GPKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D095117ED70BAB8AD68CE3369FB9107B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71CFF7401A697D55D8823C4A3A9BFA0 /* Pods-HidingShowingNavBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C798F4F355BC3816F24D84DFFCEDC1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPKit;
+			target = 065017037A7817454F0BFEB478BF39E3 /* GPKit */;
+			targetProxy = 8BF7A83EAAC2781B5EEE836A4745FB30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADE8E4B6DFD35F4C3D772E42913A40D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2C695D7E410133FA794833B755DB69 /* Pods-HidingShowingNavBarUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HidingShowingNavBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HidingShowingNavBarUITests/Pods-HidingShowingNavBarUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HidingShowingNavBarUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5C19332AD151A2FA3AAC7D13B725287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A32095D65D244FBDF1E4614FED3A093 /* Pods-HidingShowingNavBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HidingShowingNavBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HidingShowingNavBar/Pods-HidingShowingNavBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HidingShowingNavBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D629D4A4CF6B8CD83A73BEDA5C1353DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D94056EB958DA4E08C30E6ECADABDAF /* Pods-HidingShowingNavBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HidingShowingNavBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HidingShowingNavBar/Pods-HidingShowingNavBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HidingShowingNavBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC41093110C3FB36E40E179BA158EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED010939E993F49D78BEC4F950C8864 /* GPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GPKit/GPKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPKit/GPKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GPKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE4CE93C056462E74BCCD1CBCA186790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5819C7A930822D9C470313594D10731C /* Pods-HidingShowingNavBarUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HidingShowingNavBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HidingShowingNavBarUITests/Pods-HidingShowingNavBarUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HidingShowingNavBarUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF275257E40F78772056C3E260B3FDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED010939E993F49D78BEC4F950C8864 /* GPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GPKit/GPKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPKit/GPKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GPKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3680E23569BB94FA372368CF06DA5769 /* Build configuration list for PBXNativeTarget "GPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC41093110C3FB36E40E179BA158EAE5 /* Debug */,
+				FF275257E40F78772056C3E260B3FDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4591CF88AB6F1F5D108E76361DB9A763 /* Build configuration list for PBXNativeTarget "Pods-HidingShowingNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D629D4A4CF6B8CD83A73BEDA5C1353DF /* Debug */,
+				D5C19332AD151A2FA3AAC7D13B725287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D012046DA8FA4D6B9C0A478E2534554F /* Build configuration list for PBXNativeTarget "Pods-HidingShowingNavBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4CE93C056462E74BCCD1CBCA186790 /* Debug */,
+				ADE8E4B6DFD35F4C3D772E42913A40D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

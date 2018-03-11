@@ -1,0 +1,6 @@
+framework module GPKit {
+  umbrella header "GPKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
